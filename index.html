@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mahadiul's Portfolio 2022</title>
+  </head>
+  <body>
+    <!-- page loader -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- background circles -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+
+    <main class="main">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Home section -->
+      <section class="home-section align-item-center active" id="home">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="home-text">
+              <p>Hello I&apos;m</p>
+              <h1>Mahadiul Hasan</h1>
+              <h2>Full-Stack Web Developer</h2>
+              <a class="btn link-item" href="#about">more about me</a>
+              <a class="btn link-item" href="#portfolio">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="./img/profile.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="about-section sec-padding" id="about">
+        <div class="row">
+          <div class="section-title">
+            <h2>about me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="./img/profile.png" alt="profile-img" />
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              Hello, I am Mahadiul Hasan. I am a MERN Stack Developer. Since 2021 I am work as a freelance Web Developer. I am a quick learner and love to learn new technology. 
+            </p>
+            <h3>skills</h3>
+            <div class="skills">
+              <div class="skill-item">html5</div>
+              <div class="skill-item">css3</div>
+              <div class="skill-item">javaScript</div>
+              <div class="skill-item">react.js</div>
+              <div class="skill-item">next.js</div>
+              <div class="skill-item">node.js</div>
+              <div class="skill-item">express.js</div>
+              <div class="skill-item">mongoDB</div>
+              <div class="skill-item">mongoose</div>
+              <div class="skill-item">MySql</div>
+              <div class="skill-item">python</div>
+              <div class="skill-item">django</div>
+            </div>
+
+            <div class="about-tabs">
+              <button
+                type="button"
+                class="tab-item active"
+                data-target="#education"
+              >
+                education
+              </button>
+              <button type="button" class="tab-item" data-target="#experience">
+                experience
+              </button>
+            </div>
+
+            <!-- education -->
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2020 - 2021</span>
+                  <h4>
+                    Full-Stack web Development - <span>programming hero</span>
+                  </h4>
+                  <p>
+                    Programming Hero Graduate. Black Belt Web Developer.
+                    <a href="https://drive.google.com/file/d/1iGN0XtWbgKozUAqQrNGuIl111faeKBG1/view?usp=sharing" target="_blank" class="btn link-item">view certificate</a>
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2017 - 2025</span>
+                  <h4>BSC in Chemistry - <span>rangpur govt. college</span></h4>
+                  <p>
+                    Honours 4th year student.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- experience -->
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2021 - Present</span>
+                  <h4>Full-Stack web Developer - <span>Fiverr.com</span></h4>
+                  <p>
+                    I'm work as a Full-Stack freelance Web Developer in fiverr.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="Mahadiul_hasan_Resume_2022.pdf" target="_blank" class="btn">download cv</a>
+            <a href="#contact" class="btn link-item">contact me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio section -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.png" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Ema-Jhon Clone (Full-stack)</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Improved e-commerce website loading time by 42% by breaking down the data module and website.Implemented end-to-end projects with different features like product display, login, shopping cart, payment method, etc.Designed the whole system to explore technology.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>21 Nov 2020</span></li>
+                    <li>Technologies used - <span>JavaScript, Reactjs, NodeJs, React Bootstrap, MaterialUI, React Router, Express.js, Redux.js, Firebase, MongoDB, Heroku, Stripe, etc.</span></li>
+                    <li>Role - <span>Full-Stack</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://emajhon-clone.netlify.app/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/Ema-john-client" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.PNG" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Creative Agency, Selling Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Developed a selling website for the customer order processing unit. Create a user management system that includes google login, logout, order services, order list by a specific user, and
+                    review services. Designed and developed an admin panel for admin and users individually.                    
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>16 Oct 2020</span></li>
+                    <li>Technologies used - <span>JavaScript, Reactjs, NodeJs, React Bootstrap, MaterialUI, React Router, Express.js, Firebase, MongoDB Heroku, etc</span></li>
+                    <li>Role - <span>Full-Stack</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://creative-agency-bd.firebaseapp.com/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/creative-agency-client" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.PNG" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Apartment Hunt, (Team Project)</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Build a website for the customer, they can book a rent house. Implemented end-to-end projects with different features like house display, booking a rent house, google login, logout,
+                    booking list by a specific user, admin panel, etc.  Designed the whole system to explore how to work with a team.                    
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>17 Nov 2020</span></li>
+                    <li>Technologies used - <span>JavaScript, Reactjs, NodeJs, React Bootstrap, MaterialUI, React Router, Express.js, Redux.js, Firebase, MongoDB, Heroku, etc.
+                    </span></li>
+                    <li>Role - <span>Full-Stack</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://apartment-hunt-basic.web.app/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/Apartment-Hunt-Client" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.PNG" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Volunteer Network, Social Organization Site.</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Here a user can choose any event and register as a volunteer. Users can see their Activities and register for volunteer Services. Admin can create new Volunteer Activities. Admin can see all the volunteer lists. New Volunteer Activities also show in the Volunteer Activities Section. Admin can delete existing Volunteer Activities.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>28 Oct 2020</span></li>
+                    <li>Technologies used - <span>React.Js, JavaScript, Node.js, Firebase, React Bootstrap, React Router, Express.js, Redux.js, MongoDB, Heroku, HTML5, CSS3, etc.</span></li>
+                    <li>Role - <span>Full-Stack</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://volunteer-network-associations.firebaseapp.com/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/Volunteer-assignment" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/5.PNG" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">TravelBD, Hotel Booking Site</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Users can book a hotel nearby on his location. Users can see their booking details. Many kinds of rooms are available for booking. Users can sign up using Google, Facebook, and also email and password. Users only see their booking details.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>12 Sep 2020</span></li>
+                    <li>Technologies used - <span>React.Js, JavaScript, Node.js, Firebase, React Bootstrap, React Router, Express.js, HTML5, CSS3, etc.</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://travelbd-anywhere.web.app/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/travelBD-assaignment" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/6.PNG" alt="portfolio-thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Athena Design, Get Your Design Right Now. (Team Project)</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Improved design website for users. Develop best design with best team. Implemented end to end projects with different features like Services, Pricing, etc. Designed the whole system to explore how to in a team.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>20 Nov 2020</span></li>
+                    <li>Technologies used - <span>React.Js, JavaScript, Firebase, React Bootstrap, React Router, Express.js, HTML5, CSS3, etc.</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span><a href="https://athena-design-team9.netlify.app/" target="_blank">Domain</a></span>
+                    </li>
+                    <li>
+                      Source Code -
+                      <span><a href="https://github.com/Rasel5267/Athena-Design" target="_blank">Github</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/mnqwzowo" method="POST">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      name="name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      name="email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="need"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button class="btn" type="submit">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>mahadiulhasan49@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+880 1773826249</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/Rasel567.R" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/mahadiul-hasan/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/Rasel5267" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/channel/UCh1VBVA9bEqVgBWahTamVcw"
+                    target="_blank"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/mahadiul5267/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- portfolio item details popup -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button class="btn pp-close" type="button">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
